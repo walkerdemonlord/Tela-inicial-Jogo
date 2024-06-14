@@ -273,7 +273,7 @@ function generateObstacle() {
             // Redireciona para a página inicial do jogo em caso de game over após 10 segundos
             setTimeout(function() {
                 window.location.href = 'go-birds.html';
-            }, 10000); // Atraso de 10 segundos (10000 milissegundos)
+            }, 5000); // Atraso de 5 segundos
         }
     });
 });
